@@ -1,0 +1,32 @@
+
+*{
+   /* height: 100%; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+ text-align: justify;   
+ color: black;
+}
+body{
+    background-image: linear-gradient(to top, #F2E205, #F2CB05, #E07F43);
+    background-attachment: fixed;
+}
+main{
+    
+    width: 500px; /*Tamanho da caixa*/
+    padding: 20px; /*Margem em volta do texto*/
+    margin: auto; /*Alinha ao centro da tela*/
+    background-color: white;
+    border-radius: 20px; /*Arredondar bordas*/
+    box-shadow: 5px 5px 5px grey; /*1º desl lateral 2º desl baixo 3º espalhament / cor*/
+}
+h1{
+    color: #D91EBA;
+    text-align: center;
+    font-size: 32px;
+    text-shadow: 1px 1px 2px black;
+    
+}
+h2{
+    color: #F291D0;
+}

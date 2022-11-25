@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando links</title>
+    <style>
+        body{
+            background-color: rgb(0, 0, 0);
+        }
+        a{
+            color: rgb(233, 243, 36);
+            background-color: rgb(90, 65, 65);
+        }
+        h1{
+            color:rgb(68, 63, 63);
+        }
+        a:hover{
+            color:rgb(224, 155, 44);
+        }
+        .especial::before
+        {
+                color: white;
+                content: '>>';
+        }
+        .especial:visited{
+            color: aqua;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com" target="_blank" class="especial">Site do Youtube</a></li>
+           
+                <li><a href="https://cursoemvideo.com" target="_blank" class="especial">Site do Curso em Video</a></li>
+           
+        
+        <a href="https://github.com" target="_blank" rel="external">
+            <li>Site GitHub</li>
+        </a>
+    </ul>
+</body>
+</html>

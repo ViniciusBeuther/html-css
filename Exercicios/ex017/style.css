@@ -1,0 +1,27 @@
+p{
+    font-family: 'Work Sans', Arial, Helvetica;
+
+    /*
+        Medidas absolutas: cm, mm, in, px, pt, pc.
+        Recomendado o uso do Pixel (px) ou Em.
+
+        Medidas relativas: em, ex, rem, vw, vh, %
+        EM = altura do M maiúsculo.
+
+        Normalmente é utilizado 16px para o tamanho da fonte nos sites.
+        16px = 1em.
+    */
+    font-size: 16px; 
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    /*Shorthand font
+    font: font-style font-weight font-size font-family*/
+}
+h1{
+    font: italic lighter 4em Helverica;
+
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+}

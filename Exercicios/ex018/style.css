@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+body{
+    font-family: 'Amatic SC', Courier, monospace;
+    font-size: 32px;
+    color: black;
+}
+h1{
+    font-family: 'Square Peg', Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+}

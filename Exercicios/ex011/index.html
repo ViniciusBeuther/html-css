@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="Pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas / Eu e meu amor</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    <h2>O melhor casal de todo esse mundo!</h2>
+    <picture>
+        <source media="(max-width: 550px)" srcset="imagens2/snowland-300.jpg" type="image/jpg">
+        <source media="(max-width: 850px)" srcset="imagens2/snowland-500.jpg" type="image/jpg">
+        <source media="(max-width: 1250px)" srcset="imagens2/snowland-800.jpg" type="image/jpg">
+        <img src="imagens2/snowland-1200.jpg" alt="Imagem Flexivel">
+    </picture>
+
+    <h1>Utilizando audios</h1>
+    <p>Aqui podemos ver a utilização de um audio, usando a tag audio</p>
+
+    <audio preload="metadata" controls >
+        <source src="midia/musica.mp3" type="audio/mpeg">
+        <source src="midia/musica.ogg" type="audio/ogg">
+        <source src="midia/musica.wav" type="audio/wav"> <!--Nao utilizado pois é muito PESADO!-->
+        <p>Caso o seu audio nao baixou, <a href="midia/musica.mp3">clique AQUI</a></p>
+    </audio>
+</body>
+</html>
